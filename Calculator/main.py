@@ -6,6 +6,7 @@ from gui.frame_sett_and_inf import create_setting_frame_widgets, create_info_fra
 from tab.calculation.calc import calc_setup
 
 if __name__ == "__main__":
+    print("Ich bin dumm!")
     calc_setup()
     gui_main.create_app()
     gui_main.create_notebook()
